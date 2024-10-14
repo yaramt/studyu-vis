@@ -129,7 +129,7 @@ class TextualSummaryWidget extends AverageSectionWidget {
       },
     );
   }
-
+//
   // This method returns textual outcomes of a two sample t-test with respect to each of the interventions A and B.
   List<String> getTextualSummary(bool isDifferent) {
     List<String> textualSummaryInterventionAB;
