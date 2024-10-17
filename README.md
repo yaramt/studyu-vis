@@ -1,79 +1,24 @@
-# StudyU: N-of-1 Trials Made Easy
+# StudyU: N-of-1 Trials Results Visualization <img src="https://www.studyu.health/img/logo.png" height="50" align="right" alt="StudyU Icon">
 
-<img src="https://www.studyu.health/img/logo.png" height="130" align="right"
-alt="StudyU Icon">
+As part of our master's project at the **[Hasso Plattner Institute](https://hpi.de/en/)**, we have redesigned and implemented the results visualization for N-of-1 trials in the **[StudyU.health](https://www.studyu.health)** application. Based on anonymous questionnaires, user feedback, and iterative feedback, we have developed the following features:
 
-StudyU is an [award-winning](https://www.studyu.health/blog/best-idea-award)
-platform to discover the effects of individual health interventions in a safe
-and convenient way. StudyU accomplishes this by bringing
-[N-of-1 trials](https://www.studyu.health/docs/basics/n-of-1-trials) into the
-digital age, effectively combining the fields of digitization and personalized
-research methods.
+<img src="https://github.com/user-attachments/assets/c392bd60-61cd-472b-88a5-98b46e893bd6" height="450" align="right">
 
-Find out more about StudyU and start your first digital N-of-1 trial now at:
-**[StudyU.health](https://www.studyu.health)**
+### 1. Textual Summary
+The results visualization begins with a short textual summary based on a two-sample t-test (Welch's t-test). This summary provides an easy-to-understand explanation of the final results.
+- **Info Tab**: For those interested in the statistical details, an info tab is available within the summary. It displays the significance level used (alpha fixed at 5%) and the p-value of the t-test.
 
-Are you a researcher or clinician interested in conducting large-scale N-of-1
-trials on a digital basis? Then the StudyU platform is the right choice for you.
-[Contact us](https://www.studyu.health/contact) to learn more about how we can
-support your research.
+### 2. Gauge Graphs
+The next section presents two **gauge graphs** showing the average outcome of each intervention.
+- **Customization Options**: Participants can switch between colorful or colorless gauges, accommodating those with visual sensitivities.
 
-Are you a developer interested in contributing to the StudyU platform? Then
-check out our [contributing guidelines](CONTRIBUTING.md) to get started.
+### 3. Bar vs. Line Plots
+In the third section, participants can explore data over different time intervals, including per day, phase, or intervention.
 
-## The StudyU Platform
+### 4. Descriptive Statistics
+For participants interested in statistical details, we also provide additional descriptive statistics. This section includes the number of missing observations and other relevant metrics that help give a deeper understanding of the data.
 
-The StudyU platform incorporates the [StudyU App](https://app.studyu.health)
-and the [StudyU Designer](https://designer.studyu.health).
+---
+### Updates
 
-### StudyU Designer
-
-[designer.studyu.health](https://designer.studyu.health)
-
-The StudyU Designer is a web-based application supporting the design and
-implementation of digital N-of-1 trials for clinicians, researchers, or digital
-health enthusiasts. With its user-centric design framework, the StudyU Designer
-improves usability with many supportive features during the study creation
-process. Notably, it includes a preview function that provides a real-time
-visualization of the study design. Besides running private N-of-1 trials,
-seamless collaboration with other researchers is also supported by sharing
-studies, fostering collaboration and transparency in the spirit of public health
-and open science.
-
-### StudyU App
-
-[<img src="resources/img/app-store-badge.png" height="50"
-alt="Download on the App Store">](<https://apps.apple.com/us/app/studyu-health/id1571991198>)
-&nbsp;&nbsp;&nbsp;&nbsp;
-[<img src="resources/img/google-play-badge.png" height="50"
-alt="Get it on Google Play">](<https://play.google.com/store/apps/details?id=health.studyu.app>)
-
-[app.studyu.health](https://app.studyu.health)
-
-The StudyU App is a user-friendly application that
-enables individuals to actively participate in digital N-of-1 trials and obtain
-personalized treatment advice. Its accessible design approach accommodates users
-with limited technical skills, allowing them to directly measure the impact of
-interventions on their health outcomes. By engaging patients in the trial process,
-the StudyU App promotes patient empowerment and facilitates shared
-decision-making between researchers, clinicians, and individuals. The StudyU App
-leverages the capabilities of statistical computing and advanced machine learning
-models to identify the optimal intervention tailored specifically to your unique
-needs and circumstances.
-
-The StudyU App is primarily intended for use on smartphones, so it is
-recommended to download it on a mobile device by using the app store links
-provided, in order for reminder notifications to work properly. Alternatively, it
-is also possible to access the StudyU App as a web application if desired.
-
-## Publications
-
-More information on the scientific background and a detailed description of
-the StudyU platform is available at:
-
-- Konigorski S, Wernicke S, Slosarek T, Zenner AM, Strelow N, Ruether FD,
-Henschel F, Manaswini M, Pottbäcker F, Edelman JA, Owoyele B, Danieletto M,
-Golden E, Zweig M, Nadkarni G, Böttinger E (2020).
-StudyU: a platform for designing and conducting innovative digital N-of-1
-trials. arXiv: 2012.1420.  
-[https://arxiv.org/abs/2012.14201](https://arxiv.org/abs/2012.14201)
+Feel free to check out updates on our branch in the [original repository](https://github.com/hpi-studyu/studyu/tree/dev_results_visualization) or explore the code and features in this **fork**.
