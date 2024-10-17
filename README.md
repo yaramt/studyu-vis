@@ -2,7 +2,7 @@
 
 As part of our master's project at the **[Hasso Plattner Institute](https://hpi.de/en/)**, we have redesigned and implemented the results visualization for N-of-1 trials in the **[StudyU.health](https://www.studyu.health)** application. Based on anonymous questionnaires, user feedback, and iterative feedback, we have developed the following features:
 
-<img src="https://github.com/user-attachments/assets/c392bd60-61cd-472b-88a5-98b46e893bd6" height="450" align="right">
+<img src="https://github.com/user-attachments/assets/c392bd60-61cd-472b-88a5-98b46e893bd6" height="450" align="right" alt="GIF">
 
 ### 1. Textual Summary
 The results visualization begins with a short textual summary based on a two-sample t-test (Welch's t-test). This summary provides an easy-to-understand explanation of the final results.
