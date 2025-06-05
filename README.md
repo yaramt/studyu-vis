@@ -17,8 +17,3 @@ In the third section, participants can explore data over different time interval
 
 ### 4. Descriptive Statistics
 For participants interested in statistical details, we also provide additional descriptive statistics. This section includes the number of missing observations and other relevant metrics that help give a deeper understanding of the data.
-
----
-### Updates
-
-Feel free to check out updates on our branch in the [original repository](https://github.com/hpi-studyu/studyu/tree/dev_results_visualization) or explore the code and features in this **fork**.
